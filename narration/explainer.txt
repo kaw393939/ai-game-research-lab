@@ -1,0 +1,9 @@
+Artificial intelligence is changing game development in two important ways: helping us create new things, and helping us understand how existing games work.
+
+For creation, AI can write gameplay code, automate Blender, and turn images into three-dimensional meshes. But a convincing demo is only the start. We still need to check geometry, animation, performance, and whether an asset survives real gameplay.
+
+Reverse Engineer Anything, or R E A, takes the investigation side. It connects an AI agent to tools that inspect compiled software. Published examples include recovering sound panning in DX-Ball and bullet-angle calculations in Touhou. A community project also reports rebuilding a Ski or Die minigame using Rust.
+
+These are focused investigations, not proof that AI can recreate an entire modern game automatically.
+
+Our research will follow that same discipline: build one small asset, understand one mechanic, test both, and measure how much human cleanup remains.
