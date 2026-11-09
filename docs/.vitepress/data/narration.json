@@ -1,0 +1,92 @@
+[
+  {
+    "id": "explainer",
+    "title": "AI, gaming, and REA",
+    "page": "/",
+    "text": "Artificial intelligence is changing game development in two important ways: helping us create new things, and helping us understand how existing games work.\n\nFor creation, AI can write gameplay code, automate Blender, and turn images into three-dimensional meshes. But a convincing demo is only the start. We still need to check geometry, animation, performance, and whether an asset survives real gameplay.\n\nReverse Engineer Anything, or R E A, takes the investigation side. It connects an AI agent to tools that inspect compiled software. Published examples include recovering sound panning in DX-Ball and bullet-angle calculations in Touhou. A community project also reports rebuilding a Ski or Die minigame using Rust.\n\nThese are focused investigations, not proof that AI can recreate an entire modern game automatically.\n\nOur research will follow that same discipline: build one small asset, understand one mechanic, test both, and measure how much human cleanup remains.",
+    "durationSeconds": 62.42,
+    "durationLabel": "1:02",
+    "generationHash": "cefffc063bf0ea60a9100a85fdcedeea2a07375ff413a3aaae491b43a7a3e94c"
+  },
+  {
+    "id": "research",
+    "title": "The research map",
+    "page": "/research/",
+    "text": "Our game research has four tracks: programming, audio, three-dimensional assets, and integration. We want to learn what advanced AI can do reliably, and where human work remains. We will name the exact tools and versions, preserve failed attempts, and compare results against clear acceptance tests. Our first REA trial inventoried local files; it did not recover gameplay code. The next step is to choose one small task and gather evidence, rather than select a complete technology stack from demonstrations alone.",
+    "durationSeconds": 32.48,
+    "durationLabel": "0:32",
+    "generationHash": "8bfb773b55dddf8a033acb55bc14c1a528ecfd16cc3da78e595504d1ebfd7cd6"
+  },
+  {
+    "id": "programming",
+    "title": "Programming and agents",
+    "page": "/research/programming",
+    "text": "Can an AI agent build a gameplay system and keep it working as requirements change? Our proposed first experiment is movement, collision, an interactable object, and a restart condition. Each candidate gets the same starting code and specification. We will check edge cases, request a behavior change, and look for regressions. Success means more than code that compiles: we will measure correctness, readability, human debugging time, and repeatability. This experiment is proposed and has not yet been run.",
+    "durationSeconds": 30.57,
+    "durationLabel": "0:31",
+    "generationHash": "8132d05af316114c8ed66f459b3c9b568ca9dbf4d8fe48c0c768ec549af58e34"
+  },
+  {
+    "id": "audio",
+    "title": "Audio and voice",
+    "page": "/research/audio",
+    "text": "Our audio research asks whether generated sound can communicate gameplay events and maintain a consistent style. We have now tested local Kokoro speech generation for these research summaries. That is a narration test, not a validation of game music or sound effects. Our proposed game experiment is one room with ambience and three interactive effects. We will check triggering, loop seams, levels, creative fit, editing time, and usage rights. The goal is a coherent soundscape that works during play.",
+    "durationSeconds": 29.52,
+    "durationLabel": "0:30",
+    "generationHash": "13b34d603e0534ba85d55c40ad0816690bc587ed1c7f0bd38fd45d3d3b44f996"
+  },
+  {
+    "id": "3d",
+    "title": "3D models and animation",
+    "page": "/research/3d",
+    "text": "A good render does not prove that a model is ready for a game. Our proposed first three-dimensional asset experiment follows one prop from its brief into the engine. We will define its dimensions, style, triangle budget, and texture budget before generation. Then we will inspect topology, texture coordinates, scale, materials, and collision. We will also record cleanup time and runtime performance. The key question is whether the asset can be imported, revised, and used without disproportionate human repair. This experiment has not yet been run.",
+    "durationSeconds": 34.05,
+    "durationLabel": "0:34",
+    "generationHash": "9a79bf04966d358ef537135b5819684761dbf225bcdce02a4e53ba7d5df025b1"
+  },
+  {
+    "id": "integration",
+    "title": "Game integration",
+    "page": "/research/integration",
+    "text": "The integration track brings code, sound, and art into one small playable room. First, we will choose a target platform and engine from the game requirements. Then we will combine one gameplay loop, a generated prop, and a soundscape. We will test the packaged build on the target hardware and measure frame time, loading, memory, and cross-system defects. Individually impressive outputs are only useful if they work together. This vertical slice is proposed; we have not yet built or benchmarked it.",
+    "durationSeconds": 29.48,
+    "durationLabel": "0:29",
+    "generationHash": "037e625248115792c2f136f49f9a7fae73613c923c15e2dcb8cf7adb5dbb3f39"
+  },
+  {
+    "id": "rea",
+    "title": "Reverse Engineer Anything",
+    "page": "/research/rea",
+    "text": "Reverse Engineer Anything, or R E A, connects an AI agent to software inspection tools. Official game examples investigate sound panning in DX-Ball and bullet-angle calculations in Touhou Four. A community project reports reconstructing a Ski or Die minigame in Rust with S D L Two. We have reviewed those reports, not independently reproduced them. Our local test found logs and saved data rather than a complete game executable. Next, we should investigate one small mechanic with known source code and check the recovered behavior against ground truth.",
+    "durationSeconds": 34.92,
+    "durationLabel": "0:35",
+    "generationHash": "fa0125d3738f450cbfd09e2b7ae6b322dc9590c70fb42ed1b052ad3ff62a1832"
+  },
+  {
+    "id": "ai-modeling",
+    "title": "AI modeling and CAD",
+    "page": "/research/ai-modeling",
+    "text": "There are three different ways to use AI in modeling: write modeling code, generate mesh data, or assist a specific task inside an existing application. We should test them separately. Blender and Python are our proposed starting point for editable game assets. CadQuery is a candidate for precise, parameter-driven geometry. AutoCAD automation depends on the product and platform; an AI help assistant does not by itself demonstrate prompt-to-model capability. We will compare generated and scripted props by dimensions, editability, cleanup effort, and successful engine import.",
+    "durationSeconds": 35.92,
+    "durationLabel": "0:36",
+    "generationHash": "03f64d6ebe03c823f2ce4af6e6ef4ae735c5bc1b2268ea99ef4cf8c36f25b4ed"
+  },
+  {
+    "id": "ai-stack",
+    "title": "Languages and libraries",
+    "page": "/research/ai-stack",
+    "text": "Choose languages by the job they need to do. Python is our proposed tool for Blender scripts, geometry checks, and model experiments. TypeScript can support browser viewers. The gameplay language should fit the engine we choose. Libraries such as PyTorch, Transformers, and ONNX Runtime serve model experimentation or inference; they are not substitutes for a game engine. To compare AI coding performance, we will ask for the same feature, the same bug fix, and the same change request, then measure correctness, regressions, and human effort.",
+    "durationSeconds": 34.05,
+    "durationLabel": "0:34",
+    "generationHash": "e646e959bc1a2728ffcba5e8c38a479e2def591eb43db1a4f891234a293316fd"
+  },
+  {
+    "id": "strategy",
+    "title": "Our research plan",
+    "page": "/research/strategy",
+    "text": "Our research should move from evidence to one playable room. Start by separating documented interfaces, author-reported demonstrations, independently reproduced results, and features validated in our game. First compare a small editable prop, a precision part, and a simple gameplay mechanic. Give candidates the same brief and a clear time budget. Ask for a revision after the first success. Measure total human effort, including cleanup and integration. Only expand to complex characters or large environments after the small assets and mechanics pass their tests. These are proposed experiments, not completed results.",
+    "durationSeconds": 37.83,
+    "durationLabel": "0:38",
+    "generationHash": "c2eb7ae1023a48b5d6b01e72c62225cb5469b888a60f02035943ddf318b467d0"
+  }
+]

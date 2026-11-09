@@ -1,9 +1,11 @@
 # Audio & voice
 
+<AudioSummary id="audio" />
+
 Can AI-generated audio communicate gameplay events while maintaining a consistent sonic identity?
 
 ::: info Research status
-Untested. No tool or model has been selected.
+Local Kokoro narration has been tested for research summaries. Game sound effects, ambience, and music remain untested; no game-audio tool has been selected.
 :::
 
 ## First experiment: EXP-002 — One room, one soundscape

@@ -1,5 +1,7 @@
 # Game integration
 
+<AudioSummary id="integration" />
+
 Can AI-assisted code, audio, and art form a coherent and maintainable playable experience?
 
 ::: info Research status

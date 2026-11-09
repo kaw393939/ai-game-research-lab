@@ -5,9 +5,12 @@
   "type": "module",
   "scripts": {
     "docs:dev": "vitepress dev docs",
-    "docs:build": "vitepress build docs",
+    "docs:build": "npm run audio:check && vitepress build docs",
     "docs:preview": "vitepress preview docs",
-    "docs:publish": "npm run docs:build && node scripts/publish.mjs"
+    "docs:publish": "npm run docs:build && node scripts/publish.mjs",
+    "audio:generate": "sh scripts/narrate.sh",
+    "audio:site": ".local-tts/py312/bin/python scripts/generate-site-audio.py",
+    "audio:check": "node scripts/check-site-audio.mjs"
   },
   "devDependencies": {
     "vitepress": "1.6.4"

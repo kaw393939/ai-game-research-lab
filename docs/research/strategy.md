@@ -1,5 +1,7 @@
 # Research plan: from evidence to a playable room
 
+<AudioSummary id="strategy" />
+
 **Reviewed: 2026-11-09.** This is an initial source review and proposed experiment plan. External demonstrations have not been independently reproduced by this lab.
 
 ## Recommendation

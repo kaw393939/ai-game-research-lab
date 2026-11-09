@@ -1,5 +1,7 @@
 # Languages and libraries for AI-assisted game work
 
+<AudioSummary id="ai-stack" />
+
 **Reviewed: 2026-11-09.** This is a capability map, not a popularity ranking or an AI coding benchmark.
 
 ## Choose by job

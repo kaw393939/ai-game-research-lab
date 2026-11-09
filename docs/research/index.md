@@ -1,5 +1,7 @@
 # Research map
 
+<AudioSummary id="research" />
+
 These are research questions, not technology endorsements. Each track begins untested. Shortlist current tools with dated primary-source documentation when we start each experiment.
 
 | Track | Core question | First test |

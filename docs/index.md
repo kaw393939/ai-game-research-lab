@@ -26,6 +26,12 @@ features:
     link: /research/integration
 ---
 
+## Listen to the introduction
+
+<AudioSummary id="explainer" />
+
+[Browse all audio summaries](./listen.md)
+
 ## The question driving the lab
 
 Can the most capable AI tools help a small team build a coherent, playable video game—and where do they still need human judgment?

@@ -1,5 +1,7 @@
 # REA: investigating how games work
 
+<AudioSummary id="rea" />
+
 **Reviewed:** 2026-11-09 · **CLI tested:** rea-agents 6.8.0 · **Status:** Initial static inspection completed; gameplay analysis remains untested.
 
 [REA on GitHub](https://github.com/morluto/rea) is an agent-facing reverse-engineering toolkit. Its CLI and MCP interface connect analysis workflows to an AI assistant. It is useful for investigating existing software; it does not generate a complete game or recover an original source repository automatically. Native disassembly and pseudocode workflows require a supported analysis provider, such as Hopper, Ghidra, IDA, or Kuna. [Project overview](https://github.com/morluto/rea#readme)

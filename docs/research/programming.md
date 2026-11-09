@@ -1,5 +1,7 @@
 # Programming & agents
 
+<AudioSummary id="programming" />
+
 Can an AI agent implement a small gameplay system, find its defects, and maintain it through changing requirements?
 
 ::: info Research status

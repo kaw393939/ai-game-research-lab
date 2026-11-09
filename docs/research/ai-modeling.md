@@ -1,5 +1,7 @@
 # AI for 3D modeling and CAD
 
+<AudioSummary id="ai-modeling" />
+
 **Source review: 2026-11-09.** Candidates below have not been benchmarked by this lab. Recommendations describe our proposed tests.
 
 ## Three distinct workflows
