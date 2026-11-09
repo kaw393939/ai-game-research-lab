@@ -12,3 +12,7 @@ These are research questions, not technology endorsements. Each track begins unt
 ## Candidate record
 
 For each future candidate, capture its official URL, exact product/model version, date checked, input/output formats, access requirements, price at test time, usage terms, and the experiment it will enter. Avoid declaring a “best” model without task-specific comparisons.
+
+## Tool investigations
+
+- [REA: reverse engineering](./rea.md) — initial local inventory test, possible game research uses, and limits.

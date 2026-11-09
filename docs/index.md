@@ -40,5 +40,5 @@ We will answer with small experiments, versioned artifacts, and honest records o
 4. Record the outcome and update the [decision log](./decisions.md).
 
 ::: info Lab status
-The research infrastructure is ready. Experiments are proposed, not yet run. No technology has been selected or benchmarked for the game.
+The research infrastructure is ready. Core game-building experiments are proposed. An initial [REA installation inventory](./research/rea.md) has been tested; no game engine or generation tool has been selected.
 :::
