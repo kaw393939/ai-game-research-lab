@@ -16,3 +16,7 @@ For each future candidate, capture its official URL, exact product/model version
 ## Tool investigations
 
 - [REA: reverse engineering](./rea.md) — initial local inventory test, possible game research uses, and limits.
+
+- [Research plan](./strategy.md) — controlled experiments and decision gates.
+- [AI modeling and CAD](./ai-modeling.md) — Blender, AutoCAD, CadQuery, Houdini, and mesh generation.
+- [Languages and libraries](./ai-stack.md) — choose a stack by its role and test AI coding performance.

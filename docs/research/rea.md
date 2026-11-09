@@ -53,3 +53,15 @@ The tested package requires a newer Node runtime than the machine's existing Nod
 CLI results can be saved and inspected later through REA's evidence workflows. Separate command invocations are separate processes; preserve reports when you need continuity. [CLI and evidence guide](https://github.com/morluto/rea/blob/main/docs/getting-started/cli.md)
 
 Use the [experiment template](../experiments/template.md) to record the hypothesis, inputs, evidence, failure cases, and conclusion. Do not treat filenames, model guesses, or a plausible-looking pseudocode listing as proof of gameplay behavior.
+
+## Documented game examples
+
+Reviewed 2026-11-09. These are external reports, not reproductions by this lab.
+
+| Example | Reported work | What we can learn |
+| --- | --- | --- |
+| [DX-Ball](https://rea.tools/showcase/dx-ball/) | An official showcase traces sound panning through instructions, callers, and constants. It reports 3,205 original-code comparisons and 63 matching compiled bytes for the highlighted function. | Inspect assembly when pseudocode is incomplete; verify the recovered behavior with independent tests. The broader reconstruction is still described as in progress. |
+| [Touhou 4](https://rea.tools/showcase/th04/) | An official showcase traces bullet-ring angle calculations in a 16-bit DOS executable, with compiler checks for the surrounding reconstructed code. | Pick a small mathematical mechanic with visible inputs and outputs. |
+| [Ski or Die: Snowball War](https://github.com/tuunanet/rea-ski-or-die-reconstruction) | A community author reports using REA and Ghidra to recover rules and implement the minigame in Rust with SDL2. The repository documents setup and evidence. | Study the path from binary evidence to a written specification and implementation. Playability and fidelity remain author-reported until we reproduce them. |
+
+These examples support a narrow investigation workflow. They do not establish automatic recovery of a complete modern game, its original project files, or a reusable 3D asset pipeline. Our first replication should use a small source-available target so we can compare the agent's answer against ground truth.
