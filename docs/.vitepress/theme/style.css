@@ -1,0 +1,4 @@
+ :root { --vp-c-brand-1: #087f72; --vp-c-brand-2: #099989; --vp-c-brand-3: #087f72; --vp-home-hero-name-color: transparent; --vp-home-hero-name-background: linear-gradient(120deg, #12a594 20%, #6079ef); --vp-home-hero-image-background-image: linear-gradient(135deg, #28c5a844, #6375ef44); }
+.dark { --vp-c-brand-1: #5ee0cd; --vp-c-brand-2: #3ac6b1; --vp-c-brand-3: #167f73; }
+.VPFeature { border-radius: 18px !important; }
+.VPHero .text { max-width: 760px; }
